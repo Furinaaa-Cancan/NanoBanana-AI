@@ -1,8 +1,10 @@
 # Roommate - AI 室内设计平台
 
 <div align="center">
-  
+
   ![Roommate 首页](./网页图片/3ae9ac2b2bee4798811d3878a6f63168.png)
+  
+  ---
   
   ### 上传毛坯房照片 → 30秒生成专业装修效果图 → 一键获取材料清单
   
@@ -17,43 +19,63 @@
 
 ## 产品展示
 
+<br>
+
 <table>
   <tr>
-    <td width="50%">
-      <img src="./网页图片/c5d96338e5d53a9dc79d672502a5ee2e.png" alt="上传界面"/>
-      <p align="center"><b>简洁的上传界面</b></p>
+    <td width="50%" align="center">
+      <img src="./网页图片/c5d96338e5d53a9dc79d672502a5ee2e.png" alt="上传界面" width="400"/>
+      <br>
+      <br>
+      <b>简洁的上传界面</b>
     </td>
-    <td width="50%">
-      <img src="./网页图片/51cfc6a3f6a481789dc172e89eabaed5.jpg" alt="侘寂风格"/>
-      <p align="center"><b>侘寂极简风格</b></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="./网页图片/6099616649bbe28932048c34aa389fe3.jpg" alt="说明资料"/>
-      <p align="center"><b>法式复古风格</b></p>
-    </td>
-    <td width="50%">
-      <img src="./网页图片/677ed5f2f5e2df6923e9826ac2201ecd.jpg" alt="虚拟中间"/>
-      <p align="center"><b>智能局部编辑</b></p>
+    <td width="50%" align="center">
+      <img src="./网页图片/51cfc6a3f6a481789dc172e89eabaed5.jpg" alt="侘寂风格" width="400"/>
+      <br>
+      <br>
+      <b>侘寂极简风格</b>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <img src="./网页图片/99a69d3768f8a0300aa7501e2ff1a515.jpg" alt="修改-删除"/>
-      <p align="center"><b>多风格切换</b></p>
+    <td width="50%" align="center">
+      <img src="./网页图片/6099616649bbe28932048c34aa389fe3.jpg" alt="法式复古" width="400"/>
+      <br>
+      <br>
+      <b>法式复古风格</b>
     </td>
-    <td width="50%">
-      <img src="./网页图片/9fb094abba1f1c93faf667337f4d5b07.jpg" alt="现代轻奢"/>
-      <p align="center"><b>现代轻奢风格</b></p>
+    <td width="50%" align="center">
+      <img src="./网页图片/677ed5f2f5e2df6923e9826ac2201ecd.jpg" alt="智能编辑" width="400"/>
+      <br>
+      <br>
+      <b>智能局部编辑</b>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./网页图片/99a69d3768f8a0300aa7501e2ff1a515.jpg" alt="多风格" width="400"/>
+      <br>
+      <br>
+      <b>多风格切换</b>
+    </td>
+    <td width="50%" align="center">
+      <img src="./网页图片/9fb094abba1f1c93faf667337f4d5b07.jpg" alt="现代轻奢" width="400"/>
+      <br>
+      <br>
+      <b>现代轻奢风格</b>
     </td>
   </tr>
 </table>
 
+<br>
+
 <div align="center">
-  <img src="./网页图片/c4d2768b0bd1419a1c698b641c8ab36b.jpg" alt="奶油风格" width="600"/>
-  <p><b>奶油法式风格 - 温馨舒适</b></p>
+  <img src="./网页图片/c4d2768b0bd1419a1c698b641c8ab36b.jpg" alt="奶油风格" width="700"/>
+  <br>
+  <br>
+  <b>奶油法式风格 - 温馨舒适</b>
 </div>
+
+<br>
 
 ---
 
@@ -79,20 +101,24 @@
 
 ## 核心功能
 
+<br>
+
 ### AI 效果图生成
-- 上传毛坯房照片,选择装修风格
-- 30-90秒生成 4K 高清效果图
-- 支持 8+ 种主流装修风格(侘寂、奶油风、现代轻奢等)
+- **上传毛坯房照片**,选择装修风格
+- **30-90秒生成 4K 高清效果图**
+- **支持 8+ 种主流装修风格**(侘寂、奶油风、现代轻奢等)
 
 ### 智能局部编辑
-- 一键替换墙面、地板、家具
-- AI 智能抹除不需要的元素
-- 保持整体风格统一
+- **一键替换墙面、地板、家具**
+- **AI 智能抹除不需要的元素**
+- **保持整体风格统一**
 
 ### 材料清单生成
-- 自动生成装修材料清单
-- 提供预算档位(经济/标准/高配)
-- 关联购买链接
+- **自动生成装修材料清单**
+- **提供预算档位**(经济/标准/高配)
+- **关联购买链接**
+
+<br>
 
 ## 解决的问题
 
@@ -469,13 +495,17 @@ roommate-ai/
 
 ## 快速启动
 
+<br>
+
 ### 环境要求
 
-- Node.js >= 18.x
-- Python >= 3.10
-- Docker >= 24.x
-- MySQL >= 8.0
-- Redis >= 7.0
+| 依赖 | 版本要求 | 说明 |
+|-----|---------|------|
+| Node.js | >= 18.x | 前端运行环境 |
+| Python | >= 3.10 | 后端运行环境 |
+| Docker | >= 24.x | 容器化部署 |
+| MySQL | >= 8.0 | 数据库 |
+| Redis | >= 7.0 | 缓存 |
 
 ### 本地开发
 
@@ -495,9 +525,11 @@ docker-compose up -d mysql redis
 pnpm run db:migrate
 
 # 5. 启动开发服务
-pnpm run dev              # 前端
-python -m uvicorn main:app --reload  # 后端
+pnpm run dev              # 前端 (http://localhost:3000)
+python -m uvicorn main:app --reload  # 后端 (http://localhost:8000)
 ```
+
+<br>
 
 ### 环境变量
 
@@ -578,11 +610,19 @@ chore: 构建/工具
 
 ---
 
+## 参与贡献
+
+欢迎提交 Issue 和 Pull Request!
+
+---
+
 ## 联系方式
 
-- **项目负责人**：[待填写]
-- **技术负责人**：[待填写]
-- **产品负责人**：[待填写]
+| 角色 | 联系人 | 状态 |
+|-----|--------|------|
+| 项目负责人 | [待填写] | 待定 |
+| 技术负责人 | [待填写] | 待定 |
+| 产品负责人 | [待填写] | 待定 |
 
 ---
 
@@ -592,10 +632,11 @@ Copyright 2024 Roommate AI. All rights reserved.
 
 ---
 
-> **第一款付费产品建议**：从「A档-解锁高清图 ¥9.9」起步，这是验证用户付费意愿的最小闭环。一旦转化率>5%，再逐步开放B/C/D档。
-
-```
-在线体验
+## 在线体验
 
 - **网站**: [https://roommate-ai.com](https://roommate-ai.com) (待部署)
 - **演示视频**: [查看效果](./网页图片/)
+
+---
+
+> **MVP 策略**: 从「解锁高清图 ¥9.9」起步,验证付费意愿后再开放更多功能。
